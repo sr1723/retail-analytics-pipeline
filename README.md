@@ -3,6 +3,7 @@
 End-to-End Data Pipeline + Dashboard (Pandas, PostgreSQL, dbt, SQLAlchemy, SQL, Tableau)
 
 This project analyzes e-commerce sales data and builds an interactive dashboard that highlights top-selling products, country-level customer distribution, and trends in order behavior.
+
 It showcases skills in data engineering, data modeling, SQL transformation, and data visualization.
 
 🚀 Project Overview
@@ -80,19 +81,31 @@ Git version control and repo publishing
 📁 Repository Structure
 
 /etl_pipeline          → python script
+
 /data_warehouse/models → dbt models
+
 /dashboards            → Tableau workbook, pdf with screenshots and demo link (.twbx / .pdf)
+
 /data                  → Original CSV
+
 README.md
 
 📝 How to Run the Project
 
 Clone the repo
+
+Download CSV file from link
+
 Create a PostgreSQL database
+
 Run the ETL script
+
 Configure dbt profile (~/.dbt/profiles.yml)
+
 Run dbt on SQL scripts
+
 Open Tableau → connect to Postgres → import dashboards
 
 📫 Contact
+
 If you'd like help customizing or extending this project, feel free to open an issue or reach out.
