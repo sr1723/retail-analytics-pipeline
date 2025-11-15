@@ -20,24 +20,34 @@ dbt (Data Build Tool) → transformed and modeled the warehouse data
 ETL Pipeline → Extract (CSV), Transform (dbt), Load (Postgres)
 
 Frontend / Analytics
+
 Tableau Desktop → Connected to the warehouse
+
 Built dashboards such as:
+
 Top Selling Products
+
 Customer Count by Country (Interactive Map)
+
 Time-based Sales Analysis
 
 Architecture Diagram:
+
 CSV File → Python (SQLAlchemy) → PostgreSQL Warehouse 
           → dbt Transformations → Clean Fact/Dim Tables → Tableau Dashboards
 
 🗂️ Dataset Description
 
 The cleaned data warehouse contains:
+
 Dimension Tables
+
 dim_customer – customer ID, country
+
 dim_product – product stock code, description, unit price
 
 Fact Table
+
 fact_sales – order ID, stock code, date, customer ID, quantity, unit price, total price
 
 🔧 Tools and Technologies:
@@ -52,15 +62,23 @@ fact_sales – order ID, stock code, date, customer ID, quantity, unit price, to
 🧠 Key Skills Demonstrated
 
 SQL database design & schema creation
+
 Loading external data using Python and SQLAlchemy
+
 Cleaning data with Python Pandas
+
 Designing fact/dimension models
+
 Building dbt models
+
 Joining tables through dbt + Tableau
+
 Creating professional dashboards with filters, maps, and KPIs
+
 Git version control and repo publishing
 
 📁 Repository Structure
+
 /etl_pipeline          → python script
 /data_warehouse/models → dbt models
 /dashboards            → Tableau workbook, pdf with screenshots and demo link (.twbx / .pdf)
