@@ -8,10 +8,15 @@ It showcases skills in data engineering, data modeling, SQL transformation, and 
 🚀 Project Overview
 
 This repository contains an end-to-end analytics pipeline using:
+
 Backend / Data Engineering
+
 Python + SQLAlchemy → Cleaned and loaded CSV data into PostgreSQL
+
 PostgreSQL → Data warehouse storing fact and dimension tables
+
 dbt (Data Build Tool) → transformed and modeled the warehouse data
+
 ETL Pipeline → Extract (CSV), Transform (dbt), Load (Postgres)
 
 Frontend / Analytics
