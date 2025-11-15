@@ -86,7 +86,7 @@ Git version control and repo publishing
 
 /dashboards            → Tableau workbook, pdf with screenshots and demo link (.twbx / .pdf)
 
-/data                  → Original CSV
+/data/raw              → link to original CSV
 
 README.md
 
